@@ -39,8 +39,8 @@ class ControllerExtensionPaymentPayu extends Controller
 	public function confirm()
 	{
 		if ($this->session->data['payment_method']['code'] == 'payment_payu') {
-			// $this->load->model('checkout/order');
-			// $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('payment_payu_order_status_id'));
+			$this->load->model('checkout/order');
+			$this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('payment_payu_order_status_id'));
 		}
 	}
 
