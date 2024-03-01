@@ -4,7 +4,7 @@ $_['heading_title']      = 'PayU';
 
 // Text 
 $_['text_payment']       = 'Payment';
-$_['text_payu']       	 = '<a onclick="window.open(\'http://www.payu.ru/\');"><img src="view/image/payment/payu.png" alt="PayU" title="PayU" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_payu']       	 = '<a onclick="window.open(\'http://www.ypmn.ru/\');"><img src="view/image/payment/payu.png" alt="PayU" title="PayU" style="border: 1px solid #EEEEEE;" /></a>';
 $_['text_success']       = 'Settings updated';   
 $_['text_pay']           = 'PayU';
 $_['text_card']          = 'Credit Card';
